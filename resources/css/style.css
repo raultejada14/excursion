@@ -1,12 +1,46 @@
 html {
 	background-color: black;
 }
+
 header {
-	color: white;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
 }
+
 header h1 {
+	color: white;
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 3.125rem;
+	text-align: center;
+	
+}
+
+body{
+	display: inline-flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+}
+
+
+body .link{
 	display: flex;
 	justify-content: center;
-	
+	color: aquamarine;
+	font-size: 1rem;
+}
+
+body h2{
+	color: white;
+	font-family: verdana;
+	font-weight: 300;
+	font-size: 2.625rem;
+	text-align: center;
+}
+
+body h3{
+	color: gray;
+	font-family: verdana;
+	font-size: 1.3125rem;
+	text-align: center;
 }
